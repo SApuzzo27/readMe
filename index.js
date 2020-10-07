@@ -23,6 +23,11 @@ const questions = [
         message: "What is your projects name?",
     },
     {
+        type: "input",
+        name: "liveLink", 
+        message: "Does your Repo have a live link? If so insert it here, if not hit return.",
+    },
+    {
         type: "input" ,
         name: "description",
         message: "Please write a short description about your project",
