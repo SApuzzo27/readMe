@@ -25,7 +25,7 @@ const questions = [
     {
         type: "input",
         name: "liveLink", 
-        message: "Does your Repo have a live link? If so insert it here, if not hit return.",
+        message: "Does your Repo have a live link? If so insert it here, if not hit return to skip.",
     },
     {
         type: "input" ,
