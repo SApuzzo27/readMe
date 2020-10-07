@@ -54,13 +54,11 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  To install necessary dependencies, run the following command(s):
-<br>
-  ${data.installation}
-<br>
+  To install necessary dependencies, run the following command(s): ${data.installation}
+
 
   ## Usage 
-    ${data.usage}
+  ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
@@ -73,7 +71,7 @@ ${renderLicenseSection(data.license)}
 <br>
 
   ## Questions 
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work on Github at ${data.github}.`;
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at https://github.com/${data.github}.`;
 
 }
 
